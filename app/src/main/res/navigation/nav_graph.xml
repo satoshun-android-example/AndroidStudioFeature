@@ -10,7 +10,7 @@
 
     <action
       android:id="@+id/nav_app_to_desguar_time"
-      app:destination="@id/nav_app_to_desguar_time" />
+      app:destination="@id/nav_desugar_time" />
   </fragment>
 
   <fragment
