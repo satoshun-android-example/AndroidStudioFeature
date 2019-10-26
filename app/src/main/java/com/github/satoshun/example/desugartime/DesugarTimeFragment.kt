@@ -30,19 +30,23 @@ class DesugarTimeFragment : Fragment() {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
 
+    // Instant API
     val date = Date()
     val instant = date.toInstant()
     binding.instant.text = instant.epochSecond.toString()
 
+    // ZoneId API
     val zoneId = ZoneId.systemDefault()
     binding.zoneId.text = zoneId.id
     println(instant.atZone(zoneId).dayOfMonth)
     println(instant.atZone(zoneId).month)
 
+    // LocalDate API
     val now = LocalDate.now()
     binding.localDate.text = now.dayOfMonth.toString()
     println(now.dayOfMonth)
 
+    // ZoneOffset API
     val zoneOffset = ZoneOffset.ofHours(10)
     println(zoneOffset)
   }
