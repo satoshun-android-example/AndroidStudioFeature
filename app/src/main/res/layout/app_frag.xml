@@ -9,18 +9,10 @@
     android:orientation="vertical">
 
     <Button
-      android:id="@+id/basic_cache"
+      android:id="@+id/desugar_time"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Basic Cache"
-      tools:ignore="HardcodedText" />
-
-    <Button
-      android:id="@+id/picasso_cache"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
-      android:text="Picasso Cache"
+      android:text="desugar java.util.time"
       tools:ignore="HardcodedText" />
   </LinearLayout>
 </layout>

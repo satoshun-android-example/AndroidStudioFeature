@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.github.satoshun.example.databinding.AppActBinding
 import com.github.satoshun.example.databinding.AppFragBinding
 
@@ -22,12 +23,20 @@ class AppActivity : AppCompatActivity() {
 class AppFragment : Fragment() {
   private lateinit var binding: AppFragBinding
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
     binding = AppFragBinding.inflate(inflater, container, false)
     return binding.root
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+
+    binding.desugarTime.setOnClickListener {
+      findNavController().navigate(AppFragmentDirections.navAppToDesguarTime())
+    }
   }
 }

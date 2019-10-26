@@ -8,5 +8,12 @@
     android:id="@+id/nav_app"
     android:name="com.github.satoshun.example.AppFragment">
 
+    <action
+      android:id="@+id/nav_app_to_desguar_time"
+      app:destination="@id/nav_app_to_desguar_time" />
   </fragment>
+
+  <fragment
+    android:id="@+id/nav_desugar_time"
+    android:name="com.github.satoshun.example.desugartime.DesugarTimeFragment" />
 </navigation>
