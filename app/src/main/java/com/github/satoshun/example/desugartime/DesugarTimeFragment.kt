@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.github.satoshun.example.databinding.DesugarTimeFragBinding
 import java.time.LocalDate
 import java.time.ZoneId
+import java.time.ZoneOffset
 import java.util.Date
 
 class DesugarTimeFragment : Fragment() {
@@ -41,5 +42,8 @@ class DesugarTimeFragment : Fragment() {
     val now = LocalDate.now()
     binding.localDate.text = now.dayOfMonth.toString()
     println(now.dayOfMonth)
+
+    val zoneOffset = ZoneOffset.ofHours(10)
+    println(zoneOffset)
   }
 }
