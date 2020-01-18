@@ -33,6 +33,10 @@ android {
     coreLibraryDesugaringEnabled true
   }
 
+  viewBinding {
+    enabled = true
+  }
+
   dataBinding {
     enabled = true
   }
@@ -64,6 +68,8 @@ dependencies {
   implementation GLIDE
 
   implementation PICASSO
+
+  coreLibraryDesugaring DESUGAR
 
   implementation OKHTTP
   implementation OKHTTP_LOGGING

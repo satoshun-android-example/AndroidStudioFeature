@@ -4,15 +4,15 @@ const val COMPILE_SDK = 29
 const val MIN_SDK = 21
 const val TARGET_SDK = 29
 
-private const val VKOTLIN = "1.3.50"
+private const val VKOTLIN = "1.3.61"
 private const val VNAVIGATION = "2.1.0"
 
-const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.0.0-alpha02"
+const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.0.0-alpha07"
 const val KOTLIN_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VKOTLIN"
 const val SAFEARGS_PLUGIN = "androidx.navigation:navigation-safe-args-gradle-plugin:$VNAVIGATION"
 const val VERSIONS_PLUGIN = "com.github.ben-manes:gradle-versions-plugin:0.20.0"
 
-private const val VCOUROUTINE = "1.3.2"
+private const val VCOUROUTINE = "1.3.3"
 const val KOTLIN = "org.jetbrains.kotlin:kotlin-stdlib:$VKOTLIN"
 const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTINE"
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
@@ -27,6 +27,8 @@ const val APPCOMPAT = "androidx.appcompat:appcompat:1.1.0"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0-beta04"
 const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta3"
 const val CARDVIEW = "androidx.cardview:cardview:1.0.0"
+
+cosnt val DESUGAR = "com.android.tools:desugar_jdk_libs:1.0.4"
 
 const val CONTENTPAGER = "androidx.contentpager:contentpager:1.0.0-rc01"
 const val WEBKIT = "androidx.webkit:webkit:1.0.0"

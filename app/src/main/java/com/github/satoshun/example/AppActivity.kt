@@ -20,20 +20,12 @@ class AppActivity : AppCompatActivity() {
   }
 }
 
-class AppFragment : Fragment() {
+class AppFragment : Fragment(R.layout.app_frag) {
   private lateinit var binding: AppFragBinding
-
-  override fun onCreateView(
-    inflater: LayoutInflater,
-    container: ViewGroup?,
-    savedInstanceState: Bundle?
-  ): View? {
-    binding = AppFragBinding.inflate(inflater, container, false)
-    return binding.root
-  }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+    binding = AppFragBinding.bind(view)
 
     binding.desugarTime.setOnClickListener {
       findNavController().navigate(AppFragmentDirections.navAppToDesguarTime())
