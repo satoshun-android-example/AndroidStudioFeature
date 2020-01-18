@@ -1,9 +1,7 @@
 package com.github.satoshun.example
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -21,11 +19,10 @@ class AppActivity : AppCompatActivity() {
 }
 
 class AppFragment : Fragment(R.layout.app_frag) {
-  private lateinit var binding: AppFragBinding
+  private val binding: AppFragBinding by dataBinding()
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
-    binding = AppFragBinding.bind(view)
 
     binding.desugarTime.setOnClickListener {
       findNavController().navigate(AppFragmentDirections.navAppToDesguarTime())
