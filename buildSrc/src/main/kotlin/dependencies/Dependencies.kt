@@ -21,7 +21,9 @@ const val KTX = "androidx.core:core-ktx:1.1.0"
 const val ACTIVITYX = "androidx.activity:activity-ktx:1.0.0"
 const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.1.0"
 
-const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-alpha04"
+const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0-rc03"
+const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-rc03"
+const val LIFECYCLE_EXTENSION = "androidx.lifecycle:lifecycle-extensions:2.2.0-rc03"
 
 const val APPCOMPAT = "androidx.appcompat:appcompat:1.1.0"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0-beta04"
