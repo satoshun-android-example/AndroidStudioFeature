@@ -38,33 +38,29 @@ android {
   }
 
   buildFeatures {
-    compose true
-  }
-
-  viewBinding {
-    enabled = true
-  }
-
-  dataBinding {
-    enabled = true
+    compose false
+    dataBinding true
+    viewBinding true
   }
 }
 
 dependencies {
   implementation KOTLIN
 
-  implementation 'androidx.ui:ui-tooling:0.1.0-dev03'
-  implementation 'androidx.ui:ui-layout:0.1.0-dev03'
-  implementation 'androidx.ui:ui-material:0.1.0-dev03'
+  implementation 'androidx.ui:ui-tooling:0.1.0-dev05'
+  implementation 'androidx.ui:ui-layout:0.1.0-dev05'
+  implementation 'androidx.ui:ui-material:0.1.0-dev05'
 
   implementation MATERIAL
   implementation APPCOMPAT
   implementation CONSTRAINTLAYOUT
   implementation KTX
 
+  implementation ACTIVITYX
+  implementation FRAGMENTX
+
   implementation LIFECYCLE_COMMON
   implementation LIFECYCLE_RUNTIME
-  implementation LIFECYCLE_EXTENSION
 
   implementation COROUTINE
   implementation UI_COROUTINE
@@ -74,14 +70,7 @@ dependencies {
 
   implementation SWIPE_REFRESH_LAYOUT
 
-  implementation DAGGER_RUNTIME
-  kapt DAGGER_COMPILER
-  implementation DAGGER_ANDROID_RUNTIME
-  kapt DAGGER_ANDROID_COMPILER
-
   implementation GLIDE
-
-  implementation PICASSO
 
   coreLibraryDesugaring DESUGAR
 

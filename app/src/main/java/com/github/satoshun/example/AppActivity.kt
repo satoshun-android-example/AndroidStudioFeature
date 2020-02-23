@@ -5,6 +5,8 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewTreeLifecycleOwner
+import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.navigation.fragment.findNavController
 import com.github.satoshun.example.databinding.AppActBinding
 import com.github.satoshun.example.databinding.AppFragBinding
@@ -15,6 +17,9 @@ class AppActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     binding = DataBindingUtil.setContentView(this, R.layout.app_act)
+
+    ViewTreeLifecycleOwner.set(window.decorView, this)
+    binding.root.findViewTreeLifecycleOwner()!!
   }
 }
 

@@ -18,15 +18,14 @@ const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTIN
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.0.0"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.1.0"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-SNAPSHOT"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-SNAPSHOT"
 
-const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0-rc03"
-const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-rc03"
-const val LIFECYCLE_EXTENSION = "androidx.lifecycle:lifecycle-extensions:2.2.0-rc03"
+const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
+const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-SNAPSHOT"
 
-const val APPCOMPAT = "androidx.appcompat:appcompat:1.1.0"
-const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0-beta04"
+const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-SNAPSHOT"
+const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0"
 const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta3"
 const val CARDVIEW = "androidx.cardview:cardview:1.0.0"
 
@@ -36,13 +35,13 @@ const val CONTENTPAGER = "androidx.contentpager:contentpager:1.0.0-rc01"
 const val WEBKIT = "androidx.webkit:webkit:1.0.0"
 const val MEDIA2 = "androidx.media2:media2:1.0.0-alpha04"
 
-const val MATERIAL = "com.google.android.material:material:1.1.0-beta02"
+const val MATERIAL = "com.google.android.material:material:1.1.0"
 const val PAGING = "androidx.paging:paging-runtime:2.1.0"
 const val BROWSER = "androidx.browser:browser:1.0.0"
 const val NAVIGATION = "androidx.navigation:navigation-fragment-ktx:$VNAVIGATION"
 const val NAVIGATION_UI = "androidx.navigation:navigation-ui-ktx:$VNAVIGATION"
 
-private const val VROOM = "2.1.0-alpha04"
+private const val VROOM = "2.1.0"
 const val ROOM_COMMON = "androidx.room:room-common:$VROOM"
 const val ROOM_RUNTIME = "androidx.room:room-runtime:$VROOM"
 const val ROOM_COMPILER = "androidx.room:room-compiler:$VROOM"
