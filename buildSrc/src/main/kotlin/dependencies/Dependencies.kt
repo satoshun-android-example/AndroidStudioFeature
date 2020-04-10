@@ -4,27 +4,27 @@ const val COMPILE_SDK = 29
 const val MIN_SDK = 21
 const val TARGET_SDK = 29
 
-private const val VKOTLIN = "1.3.61"
+private const val VKOTLIN = "1.3.71"
 private const val VNAVIGATION = "2.1.0"
 
-const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.0.0-alpha09"
+const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.1.0-alpha05"
 const val KOTLIN_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VKOTLIN"
 const val SAFEARGS_PLUGIN = "androidx.navigation:navigation-safe-args-gradle-plugin:$VNAVIGATION"
 const val VERSIONS_PLUGIN = "com.github.ben-manes:gradle-versions-plugin:0.20.0"
 
-private const val VCOUROUTINE = "1.3.3"
+private const val VCOUROUTINE = "1.3.4"
 const val KOTLIN = "org.jetbrains.kotlin:kotlin-stdlib:$VKOTLIN"
 const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTINE"
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-SNAPSHOT"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-SNAPSHOT"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-alpha03"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha03"
 
 const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
 const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-SNAPSHOT"
 
-const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-SNAPSHOT"
+const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-beta01"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0"
 const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta3"
 const val CARDVIEW = "androidx.cardview:cardview:1.0.0"
