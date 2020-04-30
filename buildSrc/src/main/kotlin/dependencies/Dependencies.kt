@@ -18,8 +18,8 @@ const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTIN
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-alpha03"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha03"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-alpha04"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha04"
 
 const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
 const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-SNAPSHOT"
