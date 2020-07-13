@@ -1,13 +1,13 @@
 package dependencies
 
-const val COMPILE_SDK = 29
+const val COMPILE_SDK = 30
 const val MIN_SDK = 21
-const val TARGET_SDK = 29
+const val TARGET_SDK = 30
 
 private const val VKOTLIN = "1.3.71"
 private const val VNAVIGATION = "2.1.0"
 
-const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.1.0-alpha08"
+const val ANDROID_PLUGIN = "com.android.tools.build:gradle:4.2.0-alpha04"
 const val KOTLIN_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VKOTLIN"
 const val SAFEARGS_PLUGIN = "androidx.navigation:navigation-safe-args-gradle-plugin:$VNAVIGATION"
 const val VERSIONS_PLUGIN = "com.github.ben-manes:gradle-versions-plugin:0.20.0"
