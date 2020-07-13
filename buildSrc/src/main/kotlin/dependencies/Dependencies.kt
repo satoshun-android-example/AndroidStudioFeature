@@ -18,20 +18,19 @@ const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$VCOUROUTIN
 const val UI_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$VCOUROUTINE"
 
 const val KTX = "androidx.core:core-ktx:1.1.0"
-const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-alpha04"
-const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha04"
+const val ACTIVITYX = "androidx.activity:activity-ktx:1.2.0-alpha06"
+const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha06"
 
 const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
-const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-SNAPSHOT"
+const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha05"
 
 const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-beta01"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0"
-const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta3"
+const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta8"
 const val CARDVIEW = "androidx.cardview:cardview:1.0.0"
 
-const val DESUGAR = "com.android.tools:desugar_jdk_libs:1.0.4"
+const val DESUGAR = "com.android.tools:desugar_jdk_libs:1.0.9"
 
-const val CONTENTPAGER = "androidx.contentpager:contentpager:1.0.0-rc01"
 const val WEBKIT = "androidx.webkit:webkit:1.0.0"
 const val MEDIA2 = "androidx.media2:media2:1.0.0-alpha04"
 
@@ -46,12 +45,10 @@ const val ROOM_COMMON = "androidx.room:room-common:$VROOM"
 const val ROOM_RUNTIME = "androidx.room:room-runtime:$VROOM"
 const val ROOM_COMPILER = "androidx.room:room-compiler:$VROOM"
 
-const val VIEWMODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0-alpha03"
-const val LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.1.0-alpha03"
+const val VIEWMODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
+const val LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.1.0"
 const val LIFECYCLE_COMPILER = "androidx.lifecycle:lifecycle-compiler:2.0.0"
-const val LIFECYCLE_EXTENSIONS = "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha03"
-
-const val BIOMETRIC = "androidx.biometric:biometric:1.0.0-alpha03"
+const val LIFECYCLE_EXTENSIONS = "androidx.lifecycle:lifecycle-extensions:2.1.0"
 
 const val EMOJI = "androidx.emoji:emoji:1.0.0"
 const val EMOJI_COMPAT = "androidx.emoji:emoji-appcompat:1.0.0"
