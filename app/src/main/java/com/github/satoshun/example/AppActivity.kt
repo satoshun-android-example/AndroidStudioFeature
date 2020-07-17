@@ -40,5 +40,7 @@ class AppFragment : Fragment(R.layout.app_frag) {
     binding.desugarTime.setOnClickListener {
       findNavController().navigate(AppFragmentDirections.navAppToDesguarTime())
     }
+
+    println("Hit: ${view.findViewTreeLifecycleOwner()}")
   }
 }
