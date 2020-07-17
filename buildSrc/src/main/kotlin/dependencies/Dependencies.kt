@@ -24,7 +24,7 @@ const val FRAGMENTX = "androidx.fragment:fragment-ktx:1.3.0-alpha06"
 const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
 const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha05"
 
-const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-beta01"
+const val APPCOMPAT = "androidx.appcompat:appcompat:1.2.0-rc01"
 const val RECYCLERVIEW = "androidx.recyclerview:recyclerview:1.1.0"
 const val CONSTRAINTLAYOUT = "androidx.constraintlayout:constraintlayout:2.0.0-beta8"
 const val CARDVIEW = "androidx.cardview:cardview:1.0.0"
